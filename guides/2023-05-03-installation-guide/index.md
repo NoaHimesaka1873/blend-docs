@@ -108,3 +108,4 @@ The **blendOS Installer** should pop up. If it doesn't, open it from the **Appli
 <div class="gap"></div>
 
 Click **Next** to begin the install process.
+
