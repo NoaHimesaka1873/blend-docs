@@ -85,6 +85,8 @@ You may see some flashing text come up during boot, it's normal! (Just a Linux t
 
 You should arrive at the **desktop**, which should look like this:
 
+
+
 #### GNOME:
 
 image goes here
@@ -94,8 +96,15 @@ image goes here
 
 image goes here
 
-The **blendOS Installer** should pop up. If it doesn't open it from the **Application Menu**
+<div class="gap"></div>
+
+
+The **blendOS Installer** should pop up. If it doesn't, open it from the **Application Menu**:
+<div class="gap"></div>
 
 (gnome app menu pic w/ installer shown)
 
 (same thing but for KDE)
+<div class="gap"></div>
+
+Click **Next** to begin the install process.
