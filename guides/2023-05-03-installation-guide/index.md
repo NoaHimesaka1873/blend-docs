@@ -74,3 +74,28 @@ The computer you used to flash the ISO file to the USB drive may be the same as 
 Insert the USB drive into the computer that you wish to install blendOS to, and power it off. After a few seconds, power it on and hold the <kbd>F12</kbd> until you arrive at your computer's boot menu. If that doesn't work, you may also try <kbd>F10</kbd>, <kbd>Esc</kbd>, or <kbd>F2</kbd>.
 
 Once at the boot menu, select the USB drive you flashed blendOS to. You will be greeted by another menu, where you can press <kbd>Enter</kbd> to proceed with booting the live installation media.
+
+### Step 5: Installing
+
+:::info
+
+You may see some flashing text come up during boot, it's normal! (Just a Linux thing)
+
+:::
+
+You should arrive at the **desktop**, which should look like this:
+
+#### GNOME:
+
+image goes here
+
+
+#### KDE:
+
+image goes here
+
+The **blendOS Installer** should pop up. If it doesn't open it from the **Application Menu**
+
+(gnome app menu pic w/ installer shown)
+
+(same thing but for KDE)
