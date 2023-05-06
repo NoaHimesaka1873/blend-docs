@@ -39,6 +39,12 @@ Once the logs go away, you should see something like this (image provided by SvG
 ![blend-manager](./blend_manager.png)
 <div class="gap"></div>
 
+:::info
+
+If you do not see this, reboot.
+
+:::
+
 On the top are your **containers**, which act as a sort of distro in a distro. From here you can start, reorder (more on that later), or delete them.
 
 ![blend-containers](./blend-containers.png)
