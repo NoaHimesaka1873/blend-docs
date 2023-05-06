@@ -26,7 +26,9 @@ On the top are your **containers**, which act as a sort of distro in a distro. F
 
 :::info
 
-Keep in mind that when making your containers, you can name them **whatever you want**.
+Keep in mind that when making your containers, you can name them **whatever you want**, so instead of `arch` and `pacman.arch` you could make it as `ar` and `pacman.ar` to save on keystrokes.
+
+:::
 
 ![blend-containers](./blend-containers.png)
 <div class="gap"></div>
