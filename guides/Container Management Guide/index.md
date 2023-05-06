@@ -20,7 +20,7 @@ The container manager is **unfinished**, so some features will be missing, this 
 image goes here
 <div class="gap"></div>
 
-Along the top are your **containers**, which act as a sort of distro in a distro. From here you can start, reorder (more on that later), or delete them
+Along the top are your **containers**, which act as a sort of distro in a distro. From here you can start, reorder (more on that later), or delete them.
 
 :::info
 
@@ -32,7 +32,7 @@ You can also make a **new container** from here, if you want to.
 
 #### Binary assosciations
 
-On the bottom, you'll notice you can make **binary assosications**. These allow you to symlink container binaries as suffixless binaries. (ex. `apt.ubuntu` -> `apt`)  
+On the bottom, you'll notice you can make **binary assosications**. These allow you to turn container binaries into normal (suffixless) binaries. (ex. `apt.ubuntu` -> `apt`)  
   
 In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`).  
 
