@@ -23,7 +23,7 @@ Learn how to install blendOS on your computer through this guide!
 
 You can skip to a particular step from the outline on the right, if you're on a computer.
 
-### Step 1: Download the latest blendOS ISO file.
+### Step 1: Download the latest blendOS ISO file
 
 :::tip
 
@@ -42,7 +42,7 @@ If you're coming from Windows or macOS, it's recommended that you download the *
     * [Download from SourceForge](https://sourceforge.net/projects/blendos/files/23.04-1/GNOME/blendOS-2023.04.22-x86_64-gnome.iso/download)
     * [Download from MEGA](https://mega.nz/file/eYAkRRwR#ogEFqh7ls08cis7EqjlGFdvqELtPoxUtqG7EN6pIqCc)
 
-### Step 2: Download balenaEtcher.
+### Step 2: Download balenaEtcher
 
 In this guide, we will be using balenaEtcher to burn the ISO file to the USB drive.
 
@@ -50,7 +50,7 @@ Regardless of whether you're currently using Linux, macOS or Windows, you can do
 
 ![balenaEtcher screenshot](./etcher-1.png)
 
-### Step 3: Burn the ISO to your USB drive.
+### Step 3: Burn the ISO to your USB drive
 
 :::danger
 
@@ -63,7 +63,7 @@ Make sure to select the correct USB drive, as balenaEtcher will **erase** all th
 Click on **Flash from file**, and select the ISO file you downloaded earlier. You can then select the USB drive you would like to flash the ISO drive to. After
 selecting the drive, you can click on **Flash** to flash/burn the ISO to the USB drive.
 
-### Step 4: Boot from the USB drive.
+### Step 4: Boot from the USB drive
 
 :::info
 
@@ -87,8 +87,6 @@ You may see some flashing text come up during boot, it's normal! (Just a Linux t
 
 You should arrive at the **desktop**, which should look like this:
 
-
-
 #### GNOME:
 
 image goes here
@@ -100,7 +98,6 @@ image goes here
 
 <div class="gap"></div>
 
-
 The **blendOS Installer** should pop up. If it doesn't, open it from the **Application Menu**:
 <div class="gap"></div>
 
@@ -110,4 +107,3 @@ The **blendOS Installer** should pop up. If it doesn't, open it from the **Appli
 <div class="gap"></div>
 
 Click **Next** to begin the install process.
-
