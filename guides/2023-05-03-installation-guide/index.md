@@ -94,7 +94,7 @@ image goes here
 
 #### KDE:
 
-image goes here
+![blend-de-k](./blend-de-k.png)
 
 <div class="gap"></div>
 
