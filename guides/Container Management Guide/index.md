@@ -17,7 +17,7 @@ The container manager is **unfinished**, so some features will be missing, this 
 
 ### Using the container manager
 
-image goes here
+![blend-manager](./blend_manager.png)
 <div class="gap"></div>
 
 Along the top are your **containers**, which act as a sort of distro in a distro. From here you can start, reorder (more on that later), or delete them.
@@ -36,6 +36,8 @@ On the bottom, you'll notice you can make **binary assosications**. These allow 
   
 In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`).  
 
+To use these, put 
+
 ===============================================================
 
 ```
@@ -44,7 +46,7 @@ CONTRIBUTIONS AND THANKS
 
 
 Thanks to Overwrited for giving me the idea to write this, 
-and a picture of the new blend-settings!
+and to SvGaming for the blend-settings picture!
 ```
 
 <!-- 63 dashes/equals signs is enough to stretch across the viewer, don't use any more. -->
