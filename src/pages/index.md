@@ -52,6 +52,7 @@ title: Welcome to blendOS!
 <div id="contributors">
     <h1>Documentation contributors</h1>
     <ul>
-        <li>Rudra Saraswat - <a href="https://about.ruds.io">https://about.ruds.io</a> </li>
+        <li>Rudra Saraswat - <a href="https://about.ruds.io" target="_blank" rel="noopener noreferrer">https://about.ruds.io</a> </li>
+        <li>Asterisk - <a href="https://ast3risk-ops.carrd.co" target="_blank" rel="noopener noreferrer">https://ast3risk-ops.carrd.co</a> </li>
     </ul>
 </div>
