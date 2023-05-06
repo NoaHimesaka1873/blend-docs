@@ -58,7 +58,7 @@ Stop/Restart buttons coming soon!
 
 You can also make a **new container** from here, if you want to.
 
-#### Binary assosciations
+### Binary assosciations
 
 On the bottom, you'll notice you can make **binary assosications**. These allow you to turn container binaries into normal (suffixless) binaries. (ex. `apt.ubuntu` -> `apt`)  
 
@@ -77,9 +77,21 @@ blendOS already has a system pacman that you can use, just type `pacman --versio
 
 :::
 
-To use these, put the binary name in the first box (ex. `apt.ubuntu`) and the container name in the second (ex. `ubuntu`).
+To use these, put the binary name in the first box (ex. `apt`) and the container name in the second (ex. `ubuntu`).
 
-You can now load `apt` from the terminal by just typing `apt`!
+![blend-ex](./blend-ex.png)
+
+You can now load `apt` from the terminal by just typing `apt` instead of `apt.ubuntu`!
+
+![blend-ub](./blend-ub.png)
+
+## Waydroid
+
+In the container manager there is a Waydroid button 👀
+
+This button allows you to run android apps on Linux via containerization!
+
+The moment you press this button, it will initialize waydroid and let you pick one of two app stores.
 
 ===============================================================
 
