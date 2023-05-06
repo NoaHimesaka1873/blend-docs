@@ -17,7 +17,7 @@ The container manager is **unfinished**, so some features will be missing, this 
 
 ### Using the container manager
 
-Blow is an image of the container manager (provided by SvGaming):
+Below is an image of the container manager (provided by SvGaming):
 
 ![blend-manager](./blend_manager.png)
 <div class="gap"></div>
@@ -39,7 +39,9 @@ You can also make a **new container** from here, if you want to.
 
 On the bottom, you'll notice you can make **binary assosications**. These allow you to turn container binaries into normal (suffixless) binaries. (ex. `apt.ubuntu` -> `apt`)  
   
-In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`).  
+In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`). 
+
+But, if we want to run a binary without the stupid suffix, we can use a **Binary assosciation** to make our lives easier. For our example, we want to make `apt.ubuntu` into `apt` and `dnf.fedora` to `dnf`
 
 To use these, put
 
