@@ -17,18 +17,29 @@ The container manager is **unfinished**, so some features will be missing, this 
 
 ### Using the container manager
 
-Below is an image of the container manager (provided by SvGaming):
+To start, you will see something like this:
 
-![blend-manager](./blend_manager.png)
+![blend-create](./blend-create.png)
 <div class="gap"></div>
 
-On the top are your **containers**, which act as a sort of distro in a distro. From here you can start, reorder (more on that later), or delete them.
+Set the container distro and name in the boxes below and hit `Create Container`.
 
 :::info
 
 Keep in mind that when making your containers, you can name them **whatever you want**, so instead of `arch` and `pacman.arch` you could make it as `ar` and `pacman.ar` to save on keystrokes.
 
 :::
+
+Then, you'll see some creation logs like this:
+
+![blend-logs](./blend-logs.png)
+
+Once the logs go away, you should see something like this (image provided by SvGaming):
+
+![blend-manager](./blend_manager.png)
+<div class="gap"></div>
+
+On the top are your **containers**, which act as a sort of distro in a distro. From here you can start, reorder (more on that later), or delete them.
 
 ![blend-containers](./blend-containers.png)
 <div class="gap"></div>
@@ -48,7 +59,7 @@ On the bottom, you'll notice you can make **binary assosications**. These allow 
 ![blend-a](./blend-a.png)
 <div class="gap"></div>
   
-In blendOS, binaries are run like this: `(BINARY_NAME).(CONTAINER_NAME)` (ex. `apt.ubuntu`). 
+In blendOS, binaries are run like this: `(BINARY_NAME).(CONTAINER_NAME)` (ex. `apt.ubuntu`).  
 
 But, if we want to run a binary without the stupid suffix, we can use a **Binary assosciation** to make our lives easier. For our example, we want to make `apt.ubuntu` into `apt` and `dnf.fedora` to `dnf`
 
