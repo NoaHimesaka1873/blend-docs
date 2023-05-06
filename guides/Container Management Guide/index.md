@@ -34,10 +34,16 @@ You can also make a **new container** from here, if you want to.
 
 On the bottom, you'll notice you can make **binary assosications**. These allow you to symlink container binaries as suffixless binaries. (ex. `apt.ubuntu` -> `apt`)  
   
-In blendOS, binaries are run like this: `{BINARY_NAME}.(CONTAINER_NAME}` (ex. `apt.ubuntu`).  
+In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`).  
 
 ===============================================================
+```
+CONTRIBUTIONS AND THANKS
+==========================
 
-Thanks to Overwrited for giving me the idea to write this and a picture of the new blend-settings!
+
+Thanks to Overwrited for giving me the idea to write this, 
+and a picture of the new blend-settings!
+```
 
 <!-- 63 dashes/equals signs is enough to stretch across the viewer, don't use any more. -->
