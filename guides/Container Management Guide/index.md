@@ -41,7 +41,7 @@ Once the logs go away, you should see something like this (image provided by SvG
 
 :::info
 
-If you do not see this, reboot.
+If you do not see this, make sure to run `sudo pacman -Syu` and reboot.
 
 :::
 
