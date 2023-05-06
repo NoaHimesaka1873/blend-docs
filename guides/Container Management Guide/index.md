@@ -38,6 +38,9 @@ You can also make a **new container** from here, if you want to.
 #### Binary assosciations
 
 On the bottom, you'll notice you can make **binary assosications**. These allow you to turn container binaries into normal (suffixless) binaries. (ex. `apt.ubuntu` -> `apt`)  
+
+![blend-a](./blend-a.png)
+<div class="gap"></div>
   
 In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`). 
 
