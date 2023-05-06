@@ -37,6 +37,7 @@ On the bottom, you'll notice you can make **binary assosications**. These allow 
 In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `apt.ubuntu`).  
 
 ===============================================================
+
 ```
 CONTRIBUTIONS AND THANKS
 ==========================
