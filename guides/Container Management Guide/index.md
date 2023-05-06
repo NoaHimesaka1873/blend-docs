@@ -43,7 +43,9 @@ In blendOS, binaries are run like this: `{BINARY_NAME}.{CONTAINER_NAME}` (ex. `a
 
 But, if we want to run a binary without the stupid suffix, we can use a **Binary assosciation** to make our lives easier. For our example, we want to make `apt.ubuntu` into `apt` and `dnf.fedora` to `dnf`
 
-To use these, put
+To use these, put the binary name in the first box (ex. `apt.ubuntu`) and the container name in the second (ex. `ubuntu`).
+
+You can now load `apt` from the terminal by just typing `apt`!
 
 ===============================================================
 
