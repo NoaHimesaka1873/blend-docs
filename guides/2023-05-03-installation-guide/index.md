@@ -89,16 +89,16 @@ You should arrive at the **desktop**, which should look like this:
 
 #### GNOME:
 
-image goes here
+![blend-i-g](./blend-i-g.png)
 
 
 #### KDE:
 
-![blend-de-k](./blend-de-k.png)
+![blend-i-k](./blend-i-k.png)
 
 <div class="gap"></div>
 
-The **blendOS Installer** should pop up. If it doesn't, open it from the **Application Menu**:
+The **blendOS Installer** should pop up. If it doesn't, open it from the **Application Menu** (press the Windows key):
 <div class="gap"></div>
 
 (gnome app menu pic w/ installer shown)
@@ -106,4 +106,4 @@ The **blendOS Installer** should pop up. If it doesn't, open it from the **Appli
 (same thing but for KDE)
 <div class="gap"></div>
 
-Click **Next** to begin the install process.
+Click **Next** in the installer to begin the install process.
