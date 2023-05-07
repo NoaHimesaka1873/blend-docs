@@ -106,6 +106,10 @@ After it initalizes (and you enter your password several times), you should see 
 
 ![blend-w-2](./blend-w-2.png)
 
+### Aurora setup
+
+Click the **Initialize** button next to Aurora Store in the waydroid menu.
+
 ===============================================================
 
 ```
