@@ -98,12 +98,12 @@ You should arrive at the **desktop**, which should look like this:
 
 <div class="gap"></div>
 
-The **blendOS Installer** should pop up. If it doesn't, open it from the **Application Menu** (press the Windows key):
+The **blendOS Installer** should pop up. If it doesn't, open it from the **Application Menu** (press the Windows key) and type "installer":
 <div class="gap"></div>
 
-(gnome app menu pic w/ installer shown)
+![gnome-search](./gnome-search.png)
 
-(same thing but for KDE)
+![kde-search](./kde-search.png)
 <div class="gap"></div>
 
 Click **Next** in the installer to begin the install process.
