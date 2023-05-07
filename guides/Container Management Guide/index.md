@@ -65,7 +65,13 @@ On the bottom, you'll notice you can make **binary assosications**. These allow 
 ![blend-a](./blend-a.png)
 <div class="gap"></div>
   
-In blendOS, binaries are run like this: `(BINARY_NAME).(CONTAINER_NAME)` (ex. `apt.ubuntu`).  
+In blendOS, binaries are run like this:
+
+```
+(BINARY_NAME).(CONTAINER_NAME) 
+
+(ex. apt.ubuntu)  
+```
 
 But, if we want to run a binary without the stupid suffix, we can use a **Binary assosciation** to make our lives easier. For our example, we want to make `apt.ubuntu` into `apt` and `dnf.fedora` to `dnf`
 
@@ -92,6 +98,13 @@ In the container manager there is a Waydroid button 👀
 This button allows you to run android apps on Linux via containerization!
 
 The moment you press this button, it will initialize waydroid and let you pick one of two app stores.
+
+![blend-waydroid](./blend-w.png)
+<div class="gap"></div>
+
+After it initalizes (and you enter your password several times), you should see this:
+
+![blend-w-2](./blend-w-2.png)
 
 ===============================================================
 
