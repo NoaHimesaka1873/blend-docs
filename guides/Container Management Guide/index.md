@@ -118,7 +118,7 @@ CONTRIBUTIONS AND THANKS
 
 
 Thanks to Overwrited for giving me the idea to write this, 
-and to SvGaming for the blend-settings picture!
+and to SvGaming for the pictures!
 ```
 
 <!-- 63 dashes/equals signs is enough to stretch across the viewer, don't use any more. -->
