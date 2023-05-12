@@ -91,6 +91,14 @@ You can now load `apt` from the terminal by just typing `apt` instead of `apt.ub
 
 ![blend-ub](./blend-ub.png)
 
+:::info
+
+If pacman is not working correctly, just switch to `pacman.<arch_container_name>`, it should work.
+
+Report your pacman issue to [the discord](https://discord.gg/m9JPmZB8Kd) as well.
+
+:::
+
 ## Waydroid
 
 In the container manager there is a Waydroid button 👀
