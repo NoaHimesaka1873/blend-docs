@@ -105,5 +105,26 @@ The **blendOS Installer** should pop up. If it doesn't, open it from the **Appli
 
 ![kde-search](./kde-search.png)
 <div class="gap"></div>
+<div class="gap"></div>
 
-Click **Next** in the installer to begin the install process.
+#### Install Steps:
+
+Click **Start** in the installer to begin the install process.
+
+![blend-install-1](./blend-installer-1.png)
+
+**1.** You'll first be asked to select a keyboard layout:
+
+![blend-install-2](./blend-installer-2.png)
+<div class="gap"></div>
+
+Click **Search** to choose a keyboard layout (even though it says timezone):
+
+![blend-install-2a](./blend-installer-2-sub.png)
+
+After choosing your keyboard layout, select your **timezone**:
+
+![blend-install-3](./blend-installer-3.png)
+<div class="gap"></div>
+
+a

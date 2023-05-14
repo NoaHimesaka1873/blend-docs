@@ -7,6 +7,8 @@ tags: [containers, settings, blend-settings, new-user]
 
 ## Intro to the blendOS container manager
 
+Learn how to manage containers with this guide!
+
 The **blendOS container manager**, located in the **blendOS Settings** app, is how you manage containers on blendOS.
 
 :::info
