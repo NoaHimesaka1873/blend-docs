@@ -1,7 +1,7 @@
 ---
 slug: container-guide
 title: Container Management Guide/Troubleshooting
-authors: [asterisk]
+authors: [asterisk, svgaming]
 tags: [containers, settings, blend-settings, new-user]
 ---
 

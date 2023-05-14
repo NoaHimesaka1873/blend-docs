@@ -7,5 +7,11 @@ rs2009:
 asterisk:
   name: Asterisk
   title: Unofficial blendOS support/docwriter
-  url: https://github.com/ast3risk-ops
+  url: https://ast3risk-ops.carrd.co
   image_url: https://cdn.discordapp.com/avatars/789561823863111742/ae49fe9b9765721e5693f67e11df0546.png?size=512
+
+svgaming:
+  name: SvGaming
+  title: Screenshot Provider
+  url: https://discord.com/users/1081647844710166548
+  image_url: https://cdn.discordapp.com/avatars/1081647844710166548/de018b7d2ba47dd6c1e5b72d87c7bbf3.png?size=512
