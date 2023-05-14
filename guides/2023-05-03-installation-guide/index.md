@@ -56,7 +56,7 @@ Regardless of whether you're currently using Linux, macOS or Windows, you can do
 
 :::danger
 
-Make sure to select the correct USB drive, as balenaEtcher will **erase** ***ALL THE FILES*** on the drive.
+Make sure to select the correct USB drive, as balenaEtcher will **erase** ALL THE FILES on the drive.
 
 :::
 
@@ -148,6 +148,11 @@ they're typed like this: `<lang>_<country_code>.<text_encoding>` (ex. `en_US.UTF
 <div class="gap"></div>
 
 ![blend-install-4](./blend-installer-4.png)
+<div class="gap"></div>
+
+Hit **Search**, then choose a locale, and tick **Use as main locale**:
+
+![blend-install-4a](./blend-installer-4-sub.png)
 <div class="gap"></div>
 
 a
