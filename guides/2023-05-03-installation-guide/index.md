@@ -1,7 +1,7 @@
 ---
 slug: installation-guide
 title: Installation Guide
-authors: [rs2009]
+authors: [rs2009, asterisk]
 tags: [install, blend-inst, new-user]
 ---
 
