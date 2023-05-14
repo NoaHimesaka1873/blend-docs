@@ -36,7 +36,7 @@ Then, you'll see some creation logs like this:
 
 ![blend-logs](./blend-logs.png)
 
-Once the logs go away, you should see something like this (image provided by SvGaming):
+Once the logs go away, you should see something like this:
 
 ![blend-manager](./blend_manager.png)
 <div class="gap"></div>
