@@ -54,7 +54,7 @@ Regardless of whether you're currently using Linux, macOS or Windows, you can do
 
 :::danger
 
-Make sure to select the correct USB drive, as balenaEtcher will **erase** all the files on the drive.
+Make sure to select the correct USB drive, as balenaEtcher will **erase** ***ALL THE FILES*** on the drive.
 
 :::
 
