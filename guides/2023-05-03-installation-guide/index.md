@@ -198,5 +198,9 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 
 <details>
 <summary>Appendix A: Manual Partitioning</summary>
-manual partitioning guide goes here.
+How to manually partition on a UEFI system:
+
+1. In the installer, choose **Manual Partitioning**, then **Open GParted**:
+![blend-inst-p](./blend-installer-mpart-1.png)
+
 </details>
