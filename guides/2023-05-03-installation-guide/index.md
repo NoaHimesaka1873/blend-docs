@@ -127,4 +127,25 @@ After choosing your keyboard layout, select your **timezone**:
 ![blend-install-3](./blend-installer-3.png)
 <div class="gap"></div>
 
+Hit **Search** to see timezone options:
+
+![blend-install-3a](./blend-installer-3-sub.png)
+<div class="gap"></div>
+
+After you set your region, it's time to set your **locale**:
+
+:::info
+**WHAT IS A LOCALE?**
+
+A locale is basically the thing that the system checks to set your currency, time/date layout (dd/mm/yyyy or mm/dd/yyyy) and language.
+
+It also sets your text encoding (UTF-8 is the main one, you need at least one UTF-8 locale)
+
+they're typed like this: `<lang>_<country_code>.<text_encoding>` (ex. `en_US.UTF8`)
+:::
+<div class="gap"></div>
+
+![blend-install-4](./blend-installer-4.png)
+<div class="gap"></div>
+
 a
