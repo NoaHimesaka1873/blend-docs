@@ -124,7 +124,7 @@ Click **Search** to choose a keyboard layout (even though it says timezone):
 
 ![blend-install-2a](./blend-installer-2-sub.png)
 
-After choosing your keyboard layout, select your **timezone**:
+**2.** After choosing your keyboard layout, select your **timezone**:
 
 ![blend-install-3](./blend-installer-3.png)
 <div class="gap"></div>
@@ -134,7 +134,7 @@ Hit **Search** to see timezone options:
 ![blend-install-3a](./blend-installer-3-sub.png)
 <div class="gap"></div>
 
-After you set your region, it's time to set your **locale**:
+**3.** After you set your region, it's time to set your **locale**:
 
 :::info
 **WHAT IS A LOCALE?**
@@ -155,4 +155,48 @@ Hit **Search**, then choose a locale, and tick **Use as main locale**:
 ![blend-install-4a](./blend-installer-4-sub.png)
 <div class="gap"></div>
 
-a
+**4.** Make your **user account**:
+
+![blend-user](./blend-user.png)
+<div class="gap"></div>
+
+
+
+**5.** Next, choose the disk you'd like to wipe and partition, or choose **Manual Partitioning**:
+
+:::danger
+
+**WARNING!!**
+
+THIS WILL ERASE ALL DATA ON THE SELECTED DISK!!
+:::
+
+![blend-part](./blend-part.png)
+<div class="gap"></div>
+
+**Manual Partitioning** (consult [Appendix A](/guides/installation-guide#appendicies) for how to do this):
+
+![blend-part-sub](./blend-part-sub.png)
+<div class="gap"></div>
+
+Then, check that everything is good in the **Summary**:
+
+![blend-summary](./blend-summary.png)
+<div class="gap"></div>
+
+Then, hit **Next** and wait for the installer to finish:
+
+![blend-install-8](./blend-installer-8.png)
+<div class="gap"></div>
+
+Once the installer finishes, you'll be greeted with an option to reboot:
+
+![blend-finish](./blend-installer-9.png)
+<div class="gap"></div>
+
+## Appendices
+
+<details>
+<summary>Appendix A: Manual Partitioning</summary>
+manual partitioning guide goes here.
+</details>
