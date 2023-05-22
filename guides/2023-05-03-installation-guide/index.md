@@ -109,7 +109,7 @@ Once at the boot menu, select the USB drive you flashed blendOS to. You will be 
 
 Make sure you do step 4-ish even if it just shows a black screen or boots into a diagnostic menu.
 :::
-### Step 5: Installing
+### Step 5: Opening the Installer
 
 :::info
 
@@ -139,7 +139,7 @@ The **blendOS Installer** should pop up. If it doesn't, open it from the **Appli
 <div class="gap"></div>
 <div class="gap"></div>
 
-#### Install Steps:
+### Step 6: Running the installer
 
 Click **Start** in the installer to begin the install process.
 
@@ -192,7 +192,7 @@ Hit **Search**, then choose a locale, and tick **Use as main locale**:
 
 
 
-**5.** Next, choose the disk you'd like to wipe and partition, or choose **Manual Partitioning**:
+**5.** Next, choose the disk you'd like to wipe and partition, or choose [**Manual Partitioning**](#appendices):
 
 :::danger
 
@@ -204,7 +204,7 @@ THIS WILL ERASE ALL DATA ON THE SELECTED DISK!!
 ![blend-part](./blend-part.png)
 <div class="gap"></div>
 
-**Manual Partitioning** (consult [Appendix A](/guides/installation-guide#appendicies) for how to do this):
+**Manual Partitioning** (consult [Appendix A](#appendicies) for how to do this):
 
 ![blend-part-sub](./blend-part-sub.png)
 <div class="gap"></div>
@@ -313,7 +313,7 @@ Make a **new partition** (`Partition > New`) and set it up like the image below:
 
 ![blend-inst-m-8](./blend-installer-mpart-8.png)
 
-Set type to `linux-swap`, size to whatever you want (1028 MB = 1 GB in this case)
+Set `File System` to `linux-swap`, size to whatever you want (1028 MB = 1 GB in this case)
 
 :::tip
 
