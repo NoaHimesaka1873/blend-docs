@@ -209,7 +209,7 @@ THIS WILL ERASE ALL DATA ON THE SELECTED DISK!!
 ![blend-part-sub](./blend-part-sub.png)
 <div class="gap"></div>
 
-Then, check that everything is good in the **Summary**:
+**6.** Then, check that everything is good in the **Summary**:
 
 ![blend-summary](./blend-summary.png)
 <div class="gap"></div>
@@ -223,6 +223,12 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 
 ![blend-finish](./blend-installer-9.png)
 <div class="gap"></div>
+
+## Post-Install
+
+### Updating the system
+
+
 
 ## Appendices
 
