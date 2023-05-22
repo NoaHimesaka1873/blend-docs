@@ -202,7 +202,9 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 
 <details>
 <summary>Appendix A: Manual Partitioning</summary>
-How to manually partition:
+
+<!-- No headers in dropdowns -->
+**How to manually partition:**
 
 1. In the installer, choose **Manual Partitioning**, then **Open GParted**:
 ![blend-inst-p](./blend-installer-mpart-1.png)
@@ -258,6 +260,8 @@ The box on the bottom shows **pending changes**, so you can see what you've done
 
 Swap is like memory but on your disk, useful if you have a low amount of RAM or do a lot of containerization / virtualization.
 
+<!-- you can't do headers in a dropdown -->
+
 **Making a swap partition**
 
 This is not your only option (you can also [**swap to a file**](https://wiki.archlinux.org/title/Swap#Swap_file) post-install), but here's how to do it:
@@ -283,6 +287,38 @@ If you don't know what size your swap should be, a good rule of thumb is to make
 
 </details>
 
+5. Make your main partition:
+
+Make a new partition with the following settings:
+
+* File System: `ext4`
+* Space: The rest of your drive (unless you want a seperate `/home`, `/usr`, and/or `/tmp` partition)
+* Label: whatever you want
+
+![blend-inst-10](./blend-installer-mpart-10.png)
+<div class="gap"></div>
+
+![blend-inst-mpart-11](./blend-installer-mpart-11.png)
+
+6. Finalizing
+
+Hit `Apply` (the green checkmark)
+
+:::danger
+
+**THIS WILL MAKE WRITE CHANGES TO YOUR DISK!!!**
+
+Make sure that eveything is good before you proceed.
+
+![blend-mmmmm](./blend-installer-mpart-12.png)
+
+:::
+
+Hit `Apply` again to proceed and wait for the operations to complete.
+
+Once completed, hit `Close`.
+
+![blend-inst-m-13](./blend-installer-mpart-13.png)
 
 
 
