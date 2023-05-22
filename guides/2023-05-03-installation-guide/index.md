@@ -204,7 +204,13 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 <summary>Appendix A: Manual Partitioning</summary>
 
 <!-- No headers in dropdowns -->
-**How to manually partition:**
+**How to manually partition ona UEFI system:**
+
+:::danger
+
+If you are using VirtualBox or VMWare (or any BIOS system/hypervisor) this guide is not for you.
+
+:::
 
 1. In the installer, choose **Manual Partitioning**, then **Open GParted**:
 ![blend-inst-p](./blend-installer-mpart-1.png)
@@ -319,6 +325,36 @@ Hit `Apply` again to proceed and wait for the operations to complete.
 Once completed, hit `Close`.
 
 ![blend-inst-m-13](./blend-installer-mpart-13.png)
+
+Now, go back to the **installer** (hit the refresh icon)
+
+You should see your new partitions below:
+
+![blend-inst-m-14](./blend-installer-mpart-14.png)
+
+Set the following: (`X` refers to your drive letter, ex. `/dev/sdX` `/dev/sda`) (open the terminal and run `lsblk` to see disks and partitions)
+
+(You may see something different, like `/dev/nvme0n1p1` for partition 1 of NVMe drive 1, but the procedure is the same)
+
+Make sure that you pick the right disk, note down the id of the disk you used (ex. `/dev/sda`) (may also be `/dev/sdb1`, `/dev/sdc1`, etc, but the procedure is the same)
+
+![blend-inst-mpart-15](./blend-installer-mpart-15.png)
+<div class="gap"></div>
+
+
+:::info
+
+/dev/sda3 in the table will be /dev/sda2 for you if you didn't make a swap space.
+
+The biggest partition should be mounted at `/` and not formatted (it's your `/dev/sda3`).
+
+:::
+
+| Drive     | Format? | Mount Point |
+| --------- | ------- | ----------- |
+| /dev/sda1 | No      | `/boot/efi` |
+| /dev/sda2 | No      | None        |
+| /dev/sda3 | No      | `/`         |
 
 
 
