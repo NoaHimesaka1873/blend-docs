@@ -227,14 +227,14 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 ## Appendices
 
 <details>
-<summary>Appendix A: Manual Partitioning</summary>
+<summary>Appendix A: Manual Partitioning (UEFI)</summary>
 
 <!-- No headers in dropdowns -->
-**How to manually partition ona UEFI system:**
+**How to manually partition on a UEFI system:**
 
 :::danger
 
-If you are using VirtualBox or VMWare (or any BIOS system/hypervisor) this guide is not for you.
+If you are using VirtualBox or VMWare (or any legacy BIOS system/hypervisor) this guide is not for you, you're on your own.
 
 :::
 
