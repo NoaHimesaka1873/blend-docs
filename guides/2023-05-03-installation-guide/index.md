@@ -218,7 +218,7 @@ Choose the disk you'd like to use in the upper right.
 
 :::danger
 
-**WARNING**
+------------------ **WARNING!!** ---------------------
 
 **THIS WILL WIPE ALL DATA AND PARTITIONS ON YOUR DRIVE!**
 
@@ -230,6 +230,9 @@ Choose the disk you'd like to use in the upper right.
 * Choose **MBR** if you have a **BIOS** system (like in a VMWare or VirtualBox VM) (max 4 partitions)
 
 ![blend-inst-m-4](./blend-installer-mpart-4.png)
+
+4. Make a new partition (`Partition > New` or clicking the `New` icon on the top bar):
+![blend-inst-m-5](./blend-installer-mpart-5.png)
 
 
 </details>
