@@ -104,7 +104,7 @@ Once at the boot menu, select the USB drive you flashed blendOS to. You will be 
 
 **The menu didn't load and my PC says something about a Secure Boot violation!**
 
-[Learn to read](#step-4-ish-disabling-secure-boot-do-this-first)
+[Learn to read.](#step-4-ish-disabling-secure-boot-do-this-first)
 
 
 Make sure you do step 4-ish even if it just shows a black screen or boots into a diagnostic menu.
