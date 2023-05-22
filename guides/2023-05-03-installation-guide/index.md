@@ -231,8 +231,59 @@ Choose the disk you'd like to use in the upper right.
 
 ![blend-inst-m-4](./blend-installer-mpart-4.png)
 
-4. Make a new partition (`Partition > New` or clicking the `New` icon on the top bar):
+4. Make a new **EFI** partition (`Partition > New` or clicking the `New` icon on the top bar):
 ![blend-inst-m-5](./blend-installer-mpart-5.png)
+
+In the box, set the `New Size` to 512 and drag the partition to the left side.
+
+Set `File System` to fat32, `Label` it what you want, and hit `Add`.
+
+:::tip
+
+**Changes are not saved in GParted until you hit apply**, so you can tweak all this to your liking.
+
+:::
+
+You should now see this:
+
+![blend-m-7](./blend-installer-mpart-7.png)
+
+The box on the bottom shows **pending changes**, so you can see what you've done.
+
+**NOTE:** The following step is optional, open the dropdown below to see it.
+<details>
+<summary>Making a swap partition</summary>
+
+**Why would I want a swap partition?**
+
+Swap is like memory but on your disk, useful if you have a low amount of RAM or do a lot of containerization / virtualization.
+
+**Making a swap partition**
+
+This is not your only option (you can also [**swap to a file**](https://wiki.archlinux.org/title/Swap#Swap_file) post-install), but here's how to do it:
+
+Make a **new partition** (`Partition > New`) and set it up like the image below:
+
+![blend-inst-m-8](./blend-installer-mpart-8.png)
+
+Set type to `linux-swap`, size to whatever you want (1028 MB = 1 GB in this case)
+
+:::tip
+
+If you don't know what size your swap should be, a good rule of thumb is to make it double or half the size of your RAM (depending on which you have the space for)
+
+:::
+
+`Label` it what you want, and hit `Add`.
+
+(you'll see something like this):
+
+![blend-inst-m-9](./blend-installer-mpart-9.png)
+
+
+</details>
+
+
 
 
 </details>
