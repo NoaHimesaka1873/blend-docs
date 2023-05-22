@@ -81,7 +81,7 @@ The computer you used to flash the ISO file to the USB drive may be the same as 
 
 ### Step 4-ish: Disabling Secure Boot (do this first)
 
-Enter your BIOS setup (varies by manufacturer, google `<manufacturer> BIOS setup key`, spam that key when you see the bootlogo to enter setup) 
+Enter your BIOS setup (varies by manufacturer, google `<manufacturer> BIOS setup key`, spam or hold that key when you see the bootlogo to enter setup) 
 
 Now, find a section called `Secure Boot` (or if it doesn't exist, look under `Boot`). Turn **Secure Boot** (also called **UEFI Secure Boot**) off (should be a simple toggle)
 
@@ -91,7 +91,7 @@ Now, find a section called `Secure Boot` (or if it doesn't exist, look under `Bo
 
 **Secure Boot** is a system implemented by Microsoft which makes it so your computer can only boot *signed* EFI files. 
 
-The ones in blendOS (or any Linux distro besides Ubuntu and Fedora) are not signed (they're not windows) so you must turn this off.
+The ones in blendOS (or any Linux distro besides Ubuntu and Fedora) are not signed (they're not Windows) so you must turn this off in order to proceed.
 :::
 
 ### Step 4: Boot from the USB drive
@@ -100,6 +100,15 @@ Insert the USB drive into the computer that you wish to install blendOS to, and 
 
 Once at the boot menu, select the USB drive you flashed blendOS to. You will be greeted by another menu, where you can press <kbd>Enter</kbd> to proceed with booting the live installation media.
 
+:::info
+
+**The menu didn't load and my PC says something about a Secure Boot violation!**
+
+[Learn to read](#step-4-ish-disabling-secure-boot-do-this-first)
+
+
+Make sure you do step 4-ish even if it just shows a black screen or boots into a diagnostic menu.
+:::
 ### Step 5: Installing
 
 :::info
