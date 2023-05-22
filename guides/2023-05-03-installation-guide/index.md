@@ -69,7 +69,7 @@ Make sure to select the correct USB drive, as balenaEtcher will **erase** ALL TH
 Click on **Flash from file**, and select the ISO file you downloaded earlier. You can then select the USB drive you would like to flash the ISO drive to. After
 selecting the drive, you can click on **Flash** to flash/burn the ISO to the USB drive.
 
-### Step 4: Boot from the USB drive
+
 
 :::info
 
@@ -79,7 +79,24 @@ The computer you used to flash the ISO file to the USB drive may be the same as 
 
 <div class="gap"></div>
 
-Insert the USB drive into the computer that you wish to install blendOS to, and power it off. After a few seconds, power it on and hold the <kbd>F12</kbd> until you arrive at your computer's boot menu. If that doesn't work, you may also try <kbd>F10</kbd>, <kbd>Esc</kbd>, or <kbd>F2</kbd>.
+### Step 4-ish: Disabling Secure Boot (do this first)
+
+Enter your BIOS setup (varies by manufacturer, google `<manufacturer> BIOS setup key`, spam that key when you see the bootlogo to enter setup) 
+
+Now, find a section called `Secure Boot` (or if it doesn't exist, look under `Boot`). Turn **Secure Boot** (also called **UEFI Secure Boot**) off (should be a simple toggle)
+
+:::info
+
+**What did I just turn off?**
+
+**Secure Boot** is a system implemented by Microsoft which makes it so your computer can only boot *signed* EFI files. 
+
+The ones in blendOS (or any Linux distro besides Ubuntu and Fedora) are not signed (they're not windows) so you must turn this off.
+:::
+
+### Step 4: Boot from the USB drive
+
+Insert the USB drive into the computer that you wish to install blendOS to, and power it off. After a few seconds, power it on and hold (or spam) the <kbd>F12</kbd> until you arrive at your computer's boot menu. If that doesn't work, you may also try <kbd>F10</kbd>, <kbd>Esc</kbd>, or <kbd>F2</kbd>.
 
 Once at the boot menu, select the USB drive you flashed blendOS to. You will be greeted by another menu, where you can press <kbd>Enter</kbd> to proceed with booting the live installation media.
 
@@ -232,14 +249,14 @@ Choose the disk you'd like to use in the upper right.
 
 :::
 
-3. For the partition table type:
+3. For the partition table choose **GPT** (you *do* have a UEFI system, right?) (most PCs have UEFI)
 
-* Choose **GPT** if you have a **UEFI** system (if you don't know, do this)
-* Choose **MBR** if you have a **BIOS** system (like in a VMWare or VirtualBox VM) (max 4 partitions)
+
+
 
 ![blend-inst-m-4](./blend-installer-mpart-4.png)
 
-4. Make a new **EFI** partition (`Partition > New` or clicking the `New` icon on the top bar):
+1. Make a new **EFI** partition (`Partition > New` or clicking the `New` icon on the top bar):
 ![blend-inst-m-5](./blend-installer-mpart-5.png)
 
 In the box, set the `New Size` to 512 and drag the partition to the left side.
