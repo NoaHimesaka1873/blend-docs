@@ -27,7 +27,7 @@ You can skip to a particular step from the outline on the right, if you're on a 
 
 :::tip
 
-If you're coming from Windows or macOS, it's recommended that you download the [**KDE Plasma**](https://kde.org/plasma-desktop/) edition of blendOS. It is extremely intuitive, and has a similar workflow to other operating system.
+If you're coming from Windows or macOS, it's recommended that you download the [**KDE Plasma**](https://kde.org/plasma-desktop/) edition of blendOS. It is extremely intuitive, and has a similar workflow to other operating systems.
 
 
 However, if you prefer a functional default layout and are open to something new, the [**GNOME**](https://www.gnome.org/) edition may be for you.
@@ -286,4 +286,8 @@ If you don't know what size your swap should be, a good rule of thumb is to make
 
 
 
-</details>
+</details>  
+
+<div class="gap"></div>  
+
+PluoxHost mirror provided by: [Pluox Hosting](https://pluoxhost.xyz) | 24/7 Freemium Host
