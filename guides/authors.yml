@@ -13,7 +13,7 @@ asterisk:
 svgaming:
   name: SvGaming
   title: Screenshot Provider
-  url: https://svgaming.loca.lt/
+  url: https://svgaming.serveo.net/
   image_url: https://cdn.discordapp.com/avatars/1081647844710166548/de018b7d2ba47dd6c1e5b72d87c7bbf3.png?size=512
 
 overwrited:
