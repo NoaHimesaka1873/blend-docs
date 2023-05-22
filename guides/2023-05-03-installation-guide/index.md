@@ -245,6 +245,17 @@ Now you should see something like this (but with your partitions):
 
 Choose the disk you'd like to use in the upper right.
 
+:::danger
+
+**MAKE SURE YOU CHOOSE THE RIGHT DISK!!**
+
+If you do not choose the correct disk, you may do unwanted damage.
+
+The install livecd will also be shown here (as the last disk, usually `/dev/sdb` or `/dev/sdc`, it has an ISO partition and an EFI partition.)
+
+Do not format the livecd.
+:::
+
 ![blend-inst-2](./blend-installer-mpart-2.png)
 
 2. If you wish to wipe your drive go to `Device > Create Partition Table`:
@@ -358,7 +369,7 @@ You should see your new partitions below:
 
 ![blend-inst-m-14](./blend-installer-mpart-14.png)
 
-Set the following: (`X` refers to your drive letter, ex. `/dev/sdX` `/dev/sda`) (open the terminal and run `lsblk` to see disks and partitions)
+Set the following: (open the terminal and run `lsblk` to see disks and partitions on your system)
 
 (You may see something different, like `/dev/nvme0n1p1` for partition 1 of NVMe drive 1, but the procedure is the same)
 
@@ -370,7 +381,7 @@ Make sure that you pick the right disk, note down the id of the disk you used (e
 
 :::info
 
-/dev/sda3 in the table will be /dev/sda2 for you if you didn't make a swap space.
+`/dev/sda3` in the table will be `/dev/sda2` for you if you didn't make a swap space.
 
 The biggest partition should be mounted at `/` and not formatted (it's your `/dev/sda3`).
 
