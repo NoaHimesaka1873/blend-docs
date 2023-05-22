@@ -27,22 +27,26 @@ You can skip to a particular step from the outline on the right, if you're on a 
 
 :::tip
 
-If you're coming from Windows or macOS, it's recommended that you download the **KDE Plasma** edition of blendOS. It is extremely intuitive, and has a similar workflow to other operating system.
+If you're coming from Windows or macOS, it's recommended that you download the [**KDE Plasma**](https://kde.org/plasma-desktop/) edition of blendOS. It is extremely intuitive, and has a similar workflow to other operating system.
 
+
+However, if you prefer a functional default layout and are open to something new, the [**GNOME**](https://www.gnome.org/) edition may be for you.
 :::
 
 <div class="gap"></div>
 
 1. KDE Plasma Edition:
-    * ~~[Download from Google Drive (Broken ISO)](https://drive.google.com/file/d/1SOTy4MCB_n_28Vm8-ZNbgxLOR9LV0ZMc/view)~~
+    * ~~[Download from Google Drive (Broken ISO) (**DO NOT USE**)](https://drive.google.com/file/d/1SOTy4MCB_n_28Vm8-ZNbgxLOR9LV0ZMc/view)~~
     * [Download from SourceForge](https://sourceforge.net/projects/blendos/files/23.04-1/Plasma/blendOS-2023.04.22-x86_64-plasma.iso/download)
     * [Download from MEGA](https://mega.nz/file/2ExDkZQD#BIZ0ANkPdPMytkjqhQNaFLNca9T-BOa0DFbSYv_Y84c)
     * [Download from Asterisk's backup mirror (slow)](https://blend.shinken.studio/blendOS-2023.04.22-x86_64-plasma.iso)
+    * [Download from](http://free-05.pluoxhost.xyz:3007/blendOS-2023.04.22-x86_64-plasma.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror](http://free-05.pluoxhost.xyz:3007/blendOS-2023.04.22-x86_64-plasma.iso)
 2. GNOME Edition:
-    * ~~[Download from Google Drive (Broken ISO)](https://drive.google.com/file/d/1nT_lMZlVy2y6VVJUas1qph4I7-gxsMfB/view)~~
+    * ~~[Download from Google Drive (Broken ISO) (**DO NOT USE**)](https://drive.google.com/file/d/1nT_lMZlVy2y6VVJUas1qph4I7-gxsMfB/view)~~
     * [Download from SourceForge](https://sourceforge.net/projects/blendos/files/23.04-1/GNOME/blendOS-2023.04.22-x86_64-gnome.iso/download)
     * [Download from MEGA](https://mega.nz/file/eYAkRRwR#ogEFqh7ls08cis7EqjlGFdvqELtPoxUtqG7EN6pIqCc)
     * [Download from Asterisk's backup mirror (slow)](https://blend.shinken.studio/blendOS-2023.04.22-x86_64-gnome.iso)
+    * [Download from](http://free-05.pluoxhost.xyz:3007/blendOS-2023.04.22-x86_64-gnome.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror](http://free-05.pluoxhost.xyz:3007/blendOS-2023.04.22-x86_64-gnome.iso)
 
 ### Step 2: Download balenaEtcher
 
@@ -198,9 +202,34 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 
 <details>
 <summary>Appendix A: Manual Partitioning</summary>
-How to manually partition on a UEFI system:
+How to manually partition:
 
 1. In the installer, choose **Manual Partitioning**, then **Open GParted**:
 ![blend-inst-p](./blend-installer-mpart-1.png)
+
+Now you should see something like this (but with your partitions):
+
+Choose the disk you'd like to use in the upper right.
+
+![blend-inst-2](./blend-installer-mpart-2.png)
+
+2. If you wish to wipe your drive go to `Device > Create Partition Table`:
+![blend-inst-3](./blend-installer-mpart-3.png)
+
+:::danger
+
+**WARNING**
+
+**THIS WILL WIPE ALL DATA AND PARTITIONS ON YOUR DRIVE!**
+
+:::
+
+3. For the partition table type:
+
+* Choose **GPT** if you have a **UEFI** system (if you don't know, do this)
+* Choose **MBR** if you have a **BIOS** system (like in a VMWare or VirtualBox VM) (max 4 partitions)
+
+![blend-inst-m-4](./blend-installer-mpart-4.png)
+
 
 </details>
