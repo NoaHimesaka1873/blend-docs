@@ -35,6 +35,18 @@ However, if you prefer a functional default layout and are open to something new
 
 <div class="gap"></div>
 
+:::danger
+
+**Warning about downloads:**
+
+The links below are the only certified places to get the ISO, **DO NOT DOWNLOAD IT FROM ANYWHERE ELSE!**
+
+**Warning about torrents:**
+
+FossTorrents is the only certified provider of blendOS torrents, do not torrent blendOS from anywhere else, **DO NOT USE ANY NON-FOSSTORRENTS TORRENTS.** If someone says they're mirroring the fosstorrents torrent, get the torrent from fosstorrents [**directly.**](https://fosstorrents.com/distributions/blendos/)
+:::
+<div class="gap"></div>
+
 1. KDE Plasma Edition:
     * ~~[Download from Google Drive (Broken ISO) (**DO NOT USE**)](https://drive.google.com/file/d/1SOTy4MCB_n_28Vm8-ZNbgxLOR9LV0ZMc/view)~~
     * [Download from SourceForge](https://sourceforge.net/projects/blendos/files/23.04-1/Plasma/blendOS-2023.04.22-x86_64-plasma.iso/download)
