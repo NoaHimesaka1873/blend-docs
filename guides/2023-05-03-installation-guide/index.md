@@ -328,7 +328,7 @@ The box on the bottom shows **pending changes**, so you can see what you've done
 **Why would I want a swap partition?**
 
 Swap is like memory but on your disk, useful if you have a low amount of RAM or do a lot of containerization / virtualization.
-It's also helpful to have *some* swap
+It's also helpful to have *some* swap.
 
 <!-- you can't do headers in a dropdown -->
 
@@ -348,6 +348,7 @@ If you don't know what size your swap should be, consult the table below:
 
 ![swap-size](./swap_size.png)
 
+*Image taken from this [**It's FOSS article**](https://itsfoss.com/swap-size)*
 :::
 
 `Label` it what you want, and hit `Add`.
