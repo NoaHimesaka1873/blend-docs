@@ -246,11 +246,35 @@ Once the installer finishes, you'll be greeted with an option to reboot:
 
 ## Post-Install
 
-### Updating the system
+### Step 1: Updating the system
 
+Once you reboot, you should boot off of your **hard disk**.
 
+Once you're at the desktop open the **Terminal**
+
+`<image goes here for gnome and kde>`
+
+Then, type `sudo pacman -Syu` and enter your user password at the prompt.
+
+`pacman` will show the list of avalible upgrades, hit <kbd>y</kbd>.
+
+### Installing `linux-zen` for Waydroid support
+
+:::warning
+
+**THIS PART IS NOT DONE YET, DO NOT FOLLOW IT!!!!**
+
+:::
+
+Open the **terminal** again, and type `sudo pacman -S linux-zen linux-zen-headers`
 
 ## Appendices
+
+:::info
+
+These are done, you can follow them 😉
+
+:::
 
 <details>
 <summary>Appendix A: Manual Partitioning (UEFI)</summary>
