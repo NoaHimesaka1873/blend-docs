@@ -323,11 +323,12 @@ The box on the bottom shows **pending changes**, so you can see what you've done
 
 **NOTE:** The following step is optional, open the dropdown below to see it.
 <details>
-<summary>Making a swap partition</summary>
+<summary>Appendix A.1: Making a swap partition</summary>
 
 **Why would I want a swap partition?**
 
 Swap is like memory but on your disk, useful if you have a low amount of RAM or do a lot of containerization / virtualization.
+It's also helpful to have *some* swap
 
 <!-- you can't do headers in a dropdown -->
 
@@ -343,7 +344,9 @@ Set `File System` to `linux-swap`, size to whatever you want (1028 MB = 1 GB in 
 
 :::tip
 
-If you don't know what size your swap should be, a good rule of thumb is to make it double or half the size of your RAM (depending on which you have the space for)
+If you don't know what size your swap should be, consult the table below:
+
+![swap-size](./swap_size.png)
 
 :::
 
@@ -356,7 +359,7 @@ If you don't know what size your swap should be, a good rule of thumb is to make
 
 </details>
 
-5. Make your main partition:
+1. Make your main partition:
 
 Make a new partition with the following settings:
 
