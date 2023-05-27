@@ -340,6 +340,10 @@ Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` and update GRUB again
 
 **You're done!**
 
+### Step 3: [Containers](/guides/container-guide)
+
+Start reading the [Container management guide](/guides/container-guide)
+
 ## Appendices
 
 :::info
