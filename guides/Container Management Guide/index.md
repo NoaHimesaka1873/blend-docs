@@ -109,6 +109,12 @@ This button allows you to run android apps on Linux via containerization!
 
 The moment you press this button, it will initialize waydroid and let you pick one of two app stores.
 
+:::info
+
+Waydroid requires `linux-zen` to work properly, the install instructions for that are [**here**](/guides/installation-guide#step-2-installing-linux-zen-for-waydroid-support)
+
+:::
+
 ![blend-waydroid](./blend-w.png)
 <div class="gap"></div>
 
