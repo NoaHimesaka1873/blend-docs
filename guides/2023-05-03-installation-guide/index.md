@@ -258,7 +258,7 @@ Then, type `sudo pacman -Syu` and enter your user password at the prompt.
 
 `pacman` will show the list of avalible upgrades, hit <kbd>y</kbd>.
 
-### Installing `linux-zen` for Waydroid support
+### Step 2: Installing `linux-zen` for Waydroid support
 
 :::warning
 
