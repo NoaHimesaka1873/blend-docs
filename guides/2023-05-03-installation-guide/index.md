@@ -302,6 +302,14 @@ Open the **terminal** again, and type `sudo pacman -S linux-zen linux-zen-header
 
 `<gnome or kde screenshot it doesn't matter (of the command)>`
 
+Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` to update **GRUB** (the **GR**and **U**nified **B**ootloader)
+
+:::tip
+
+This is the equivalent of `update-grub` on other distros. You can install it into the host (you have to install it to the host) with `sudo pacman -S update-grub` (if it's not found there try the AUR).
+
+:::
+
 After both packages have installed, **reboot**. At the "Choose Boot Option" menu, choose `Advanced Options for blendOS`, then `blendos - linux-zen 6.1` (or similar).
 
 `screenshot of grub bootmenu and then the advanced options menu`
