@@ -19,3 +19,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vscode/
+
+
+# Don't ask
+
+Discord Tokens.json
