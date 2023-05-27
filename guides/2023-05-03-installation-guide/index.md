@@ -255,6 +255,7 @@ Once you're at the desktop open the **Terminal**
 **GNOME:**
 
 ![blend-gnome](./blend-postinst-term-1-gnome.png)
+<div class="gap"></div>
 
 **KDE:**
 
@@ -270,7 +271,24 @@ Then, type `sudo pacman -Syu` and enter your user password at the prompt.
 
 ![blend-k-1](./blend-postinst-term-2-plasma.png)
 
-`pacman` will show the list of avalible upgrades, hit <kbd>y</kbd>.
+`pacman` will show the list of avalible upgrades, hit <kbd>y</kbd>:
+
+**GNOME:**
+
+![blend-g-2](./blend-postinst-term-3-gnome.png)
+<div class="gap"></div>
+
+**KDE:**
+
+![blend-k-2](./blend-postinst-term-3-plasma.png)
+<div class="gap"></div>
+
+It should start upgrading:
+
+![blend-g-3](./blend-postinst-term-4-gnome.png)
+<div class="gap"></div>
+
+![blend-k-3](./blend-postinst-term-4-plasma.png)
 
 ### Step 2: Installing `linux-zen` for Waydroid support
 
@@ -280,7 +298,35 @@ Then, type `sudo pacman -Syu` and enter your user password at the prompt.
 
 :::
 
-Open the **terminal** again, and type `sudo pacman -S linux-zen linux-zen-headers`
+Open the **terminal** again, and type `sudo pacman -S linux-zen linux-zen-headers` (hit <kbd>y</kbd> at the prompt)
+
+`<gnome or kde screenshot it doesn't matter (of the command)>`
+
+After both packages have installed, **reboot**. At the "Choose Boot Option" menu, choose `Advanced Options for blendOS`, then `blendos - linux-zen 6.1` (or similar).
+
+`screenshot of grub bootmenu and then the advanced options menu`
+
+:::danger
+
+**MAKE SURE YOU ARE IN THE ZEN KERNEL BEFORE PROCEEDING!!**
+
+You don't want to remove the runnning kernel. To check what kernel is running, run the following: `uname -a | grep "zen"`
+
+With zen:
+
+`screenshot with zen`
+
+Without zen:
+
+`screenshot without zen`
+
+:::
+
+Once you're back in the OS, remove the standard linux kernel: `sudo pacman -R linux linux-headers`
+
+`screenshot of the command`
+
+**You're done!**
 
 ## Appendices
 
