@@ -330,7 +330,7 @@ Without zen:
 
 :::
 
-Once you're back in the OS, remove the standard linux kernel: `sudo pacman -R linux linux-headers`
+Once you're back in the OS, install the DKMS versions of these 2 drivers: `sudo pacman -S broadcom-wl-dkms nvidia-dkms`, then remove the Linux kernel `sudo pacman -Rcns linux linux-headers`
 
 `screenshot of the command`
 
