@@ -332,7 +332,9 @@ Without zen:
 
 Once you're back in the OS, install the DKMS versions of these 2 drivers: `sudo pacman -S broadcom-wl-dkms nvidia-dkms` (hit <kbd>y</kbd> at all prompts), then remove the Linux kernel `sudo pacman -Rcns linux linux-headers` (hit <kbd>y</kbd> at all prompts). 
 
-`screenshot of the command`
+Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` and update GRUB again
+
+![dkms](./blend-dkms-confirm.png)
 
 **You're done!**
 
