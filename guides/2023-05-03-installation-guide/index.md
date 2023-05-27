@@ -252,9 +252,23 @@ Once you reboot, you should boot off of your **hard disk**.
 
 Once you're at the desktop open the **Terminal**
 
-`<image goes here for gnome and kde>`
+**GNOME:**
+
+![blend-gnome](./blend-postinst-term-1-gnome.png)
+
+**KDE:**
+
+![blend-kde](./blend-postinst-term-1-plasma.png)
 
 Then, type `sudo pacman -Syu` and enter your user password at the prompt.
+
+**GNOME:**
+
+![blend-g-1](./blend-postinst-term-2-gnome.png)
+
+**KDE:**
+
+![blend-k-1](./blend-postinst-term-2-plasma.png)
 
 `pacman` will show the list of avalible upgrades, hit <kbd>y</kbd>.
 
