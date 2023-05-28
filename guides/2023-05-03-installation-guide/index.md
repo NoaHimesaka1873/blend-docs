@@ -207,7 +207,7 @@ they're typed like this: `<lang>_<country_code>.<text_encoding>` (ex. `en_US.UTF
 ![blend-install-4](./blend-installer-4.png)
 <div class="gap"></div>
 
-Hit **Search**, then choose a locale, and tick **Use as main locale**:
+Hit **Search**, then choose a locale, and tick **Use as main locale** (the circle) then double click the locale name or else install will not proceed:
 
 ![blend-install-4a](./blend-installer-4-sub.png)
 <div class="gap"></div>
