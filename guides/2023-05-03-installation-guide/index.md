@@ -53,7 +53,7 @@ FossTorrents is the only certified provider of blendOS torrents, do not torrent 
     * [Download from SourceForge (global)](https://sourceforge.net/projects/blendos/files/23.04-1/Plasma/blendOS-2023.04.22-x86_64-plasma.iso/download)
     * [Download from MEGA (global)](https://mega.nz/file/2ExDkZQD#BIZ0ANkPdPMytkjqhQNaFLNca9T-BOa0DFbSYv_Y84c)
     * [Download from Shinken Network mirror (slow) (Canada)](https://blend.shinken.studio/blendOS-2023.04.22-x86_64-plasma.iso)
-    * [Download from](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-plasma.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror (Poland)](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-plasma.iso)
+    * [Download from](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-plasma.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror (Germany)](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-plasma.iso)
     * [Download from SvGaming mirror (Croatia)](https://svgaming.serveo.net/downloadzone/blendos_mirror/blendOS-2023.04.22-x86_64-plasma.iso)
     * [Download from YuruMirror (South Korea)](https://mirror.funami.tech/blendos/iso/blendOS-2023.04.22-x86_64-plasma.iso)
 2. GNOME Edition:
@@ -61,7 +61,7 @@ FossTorrents is the only certified provider of blendOS torrents, do not torrent 
     * [Download from SourceForge (Global)](https://sourceforge.net/projects/blendos/files/23.04-1/GNOME/blendOS-2023.04.22-x86_64-gnome.iso/download)
     * [Download from MEGA (Global)](https://mega.nz/file/eYAkRRwR#ogEFqh7ls08cis7EqjlGFdvqELtPoxUtqG7EN6pIqCc)
     * [Download from Shinken Network mirror (slow) (Canada)](https://blend.shinken.studio/blendOS-2023.04.22-x86_64-gnome.iso)
-    * [Download from](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-gnome.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror (Poland)](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-gnome.iso)
+    * [Download from](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-gnome.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror (Germany)](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-gnome.iso)
     * [Download from SvGaming mirror (Croatia)](https://svgaming.serveo.net/downloadzone/blendos_mirror/blendOS-2023.04.22-x86_64-plasma.iso)
     * [Download from YuruMirror (South Korea)](https://mirror.funami.tech/blendos/iso/blendOS-2023.04.22-x86_64-gnome.iso)
   
