@@ -355,7 +355,7 @@ Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` and update GRUB again.
 
 Start reading the [Container management guide](/guides/container-guide)
 
-## Appendices
+## Appendicies
 
 <details>
 <summary>Appendix A: Manual Partitioning (UEFI)</summary>
