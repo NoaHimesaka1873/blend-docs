@@ -3,6 +3,7 @@ slug: installation-guide
 title: Installation Guide
 authors: [rs2009, asterisk, svgaming]
 tags: [install, blend-inst, new-user]
+sidebar_position: 1
 ---
 
 <div class="gap"></div>

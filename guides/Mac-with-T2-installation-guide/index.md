@@ -3,6 +3,7 @@ slug: installation-guide-for-macs-with-t2-chip
 title: Installation Guide for Macs with T2 chip
 authors: [rs2009, noa, asterisk, svgaming]
 tags: [install, blend-inst, new-user]
+sidebar_position: 2
 ---
 
 <div class="gap"></div>
