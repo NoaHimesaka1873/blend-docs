@@ -55,6 +55,7 @@ FossTorrents is the only certified provider of blendOS torrents, do not torrent 
     * [Download from Asterisk's backup mirror (slow)](https://blend.shinken.studio/blendOS-2023.04.22-x86_64-plasma.iso)
     * [Download from](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-plasma.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-plasma.iso)
     * [Download from SvGaming mirror](https://svgaming.serveo.net/downloadzone/blendos_mirror/blendOS-2023.04.22-x86_64-plasma.iso)
+    * [Download from Funami mirror](https://mirror.funami.tech/blendos/iso/blendOS-2023.04.22-x86_64-plasma.iso)
 2. GNOME Edition:
     * ~~[Download from Google Drive (Broken ISO) (**DO NOT USE**)](https://drive.google.com/file/d/1nT_lMZlVy2y6VVJUas1qph4I7-gxsMfB/view)~~
     * [Download from SourceForge](https://sourceforge.net/projects/blendos/files/23.04-1/GNOME/blendOS-2023.04.22-x86_64-gnome.iso/download)
@@ -62,6 +63,7 @@ FossTorrents is the only certified provider of blendOS torrents, do not torrent 
     * [Download from Asterisk's backup mirror (slow)](https://blend.shinken.studio/blendOS-2023.04.22-x86_64-gnome.iso)
     * [Download from](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-gnome.iso) [**PluoxHost**](https://pluoxhost.xyz) [mirror](http://paid-01.pluoxhost.xyz:4006/blendOS-2023.04.22-x86_64-gnome.iso)
     * [Download from SvGaming mirror](https://svgaming.serveo.net/downloadzone/blendos_mirror/blendOS-2023.04.22-x86_64-plasma.iso)
+    * [Download from Funami mirror](https://mirror.funami.tech/blendos/iso/blendOS-2023.04.22-x86_64-gnome.iso)
   
 3. BitTorrent:
    * [blendOS FossTorrents homepage](https://fosstorrents.com/distributions/blendos/) (for .torrent files)
