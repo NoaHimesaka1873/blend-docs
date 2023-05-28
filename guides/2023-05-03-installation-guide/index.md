@@ -16,6 +16,7 @@ Learn how to install blendOS on your computer through this guide!
 * A 64-bit CPU, from no earlier than 2009.
 * A minimum of 4 GBs of RAM and 25 GBs of storage.
 * A spare USB drive, with a minimum size of 4GBs.
+* A network connection, for the installer
 
 <!--truncate-->
 
@@ -160,6 +161,12 @@ The **blendOS Installer** should pop up. If it doesn't, open it from the **Appli
 <div class="gap"></div>
 
 ### Step 6: Running the installer
+
+:::info
+
+Before you run the installer, make sure you are connected to the internet.
+
+:::
 
 Click **Start** in the installer to begin the install process.
 
