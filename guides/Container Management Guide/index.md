@@ -118,7 +118,7 @@ Waydroid requires `linux-zen` to work properly, the install instructions for tha
 ![blend-waydroid](./blend-w.png)
 <div class="gap"></div>
 
-After it initalizes (and you enter your password several times), you should see this:
+After it initalizes (and you enter your password several times), you should see this. Once you do, **reboot**:
 
 ![blend-w-2](./blend-w-2.png)
 
