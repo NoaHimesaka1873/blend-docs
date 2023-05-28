@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[715],{4439:e=>{e.exports=JSON.parse('{"label":"blend-settings","permalink":"/blend-docs/guides/tags/blend-settings","allTagsPath":"/blend-docs/guides/tags","count":1}')}}]);

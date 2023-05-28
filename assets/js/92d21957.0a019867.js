@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[260],{395:s=>{s.exports=JSON.parse('{"label":"install","permalink":"/blend-docs/guides/tags/install","allTagsPath":"/blend-docs/guides/tags","count":2}')}}]);

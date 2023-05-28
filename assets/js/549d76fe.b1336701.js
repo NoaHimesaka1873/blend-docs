@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[380],{8238:e=>{e.exports=JSON.parse('{"label":"containers","permalink":"/blend-docs/guides/tags/containers","allTagsPath":"/blend-docs/guides/tags","count":1}')}}]);
