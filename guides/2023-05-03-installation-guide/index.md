@@ -292,17 +292,16 @@ It should start upgrading:
 
 ### Step 2: Installing `linux-zen` for Waydroid support
 
-:::warning
+Open the **terminal** again, and install the DKMS versions of these 2 drivers: `sudo pacman -S broadcom-wl-dkms nvidia-dkms` (hit <kbd>y</kbd> at all prompts), then type `sudo pacman -S linux-zen linux-zen-headers` (hit <kbd>y</kbd> at the prompt)
 
-**THIS PART IS NOT DONE YET, DO NOT FOLLOW IT!!!!**
+![dkms](./blend-dkms-confirm.png)
 
-:::
 
-Open the **terminal** again, and type `sudo pacman -S linux-zen linux-zen-headers` (hit <kbd>y</kbd> at the prompt)
-
-`<gnome or kde screenshot it doesn't matter (of the command)>`
+![zen1](./blend-linuxzen-1.png)
 
 Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` to update **GRUB** (the **GR**and **U**nified **B**ootloader)
+
+![zen2](./blend-linuxzen-2.png)
 
 :::tip
 
@@ -312,45 +311,42 @@ This is the equivalent of `update-grub` on other distros. You can install it int
 
 After both packages have installed, **reboot**. At the "Choose Boot Option" menu, choose `Advanced Options for blendOS`, then `blendos - linux-zen 6.1` (or similar).
 
-`screenshot of grub bootmenu and then the advanced options menu`
+![zen3](./blend-linuxzen-3.png)
+<div class="gap"></div>
+
+![zen4](./blend-linuxzen-4.png)
 
 :::danger
 
 **MAKE SURE YOU ARE IN THE ZEN KERNEL BEFORE PROCEEDING!!**
 
-You don't want to remove the runnning kernel. To check what kernel is running, run the following: `uname -a | grep "zen"`
+You don't want to remove the runnning kernel. To check if you are using `linux-zen`, run the following: `uname -a | grep "zen"`
 
-With zen:
+**With zen:**
 
-`screenshot with zen`
+![zen5](./blend-linuxzen-5.png)
 
-Without zen:
+**Without zen:**
 
-`screenshot without zen`
+![zen6](./blend-linuxzen-6.png)
 
 :::
 
-Once you're back in the OS, install the DKMS versions of these 2 drivers: `sudo pacman -S broadcom-wl-dkms nvidia-dkms` (hit <kbd>y</kbd> at all prompts), then remove the Linux kernel `sudo pacman -Rcns linux linux-headers` (hit <kbd>y</kbd> at all prompts). 
+Once you're back in the OS, remove the Linux kernel `sudo pacman -Rcns linux linux-headers` (hit <kbd>y</kbd> at all prompts). 
 
-![dkms](./blend-dkms-confirm.png)
+![zen9](./blend-linuxzen-9.png)
 
-Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` and update GRUB again
+Then, run: `sudo grub-mkconfig -o /boot/grub/grub.cfg` and update GRUB again.
 
-`image of that command`
+![zen2a](./blend-linuxzen-2.png)
 
-**You're done!**
+#### You're done!
 
 ### Step 3: [Containers](/guides/container-guide)
 
 Start reading the [Container management guide](/guides/container-guide)
 
 ## Appendices
-
-:::info
-
-These are done, you can follow them 😉
-
-:::
 
 <details>
 <summary>Appendix A: Manual Partitioning (UEFI)</summary>
