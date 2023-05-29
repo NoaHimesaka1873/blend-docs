@@ -75,7 +75,7 @@ selecting the drive, you can click on **Flash** to flash/burn the ISO to the USB
 
 :::info
 
-The computer you used to flash the ISO file to the USB drive may be the same as the computer you want to install blendOS.
+The computer/Mac you used to flash the ISO file to the USB drive may be the same as the Mac you want to install blendOS.
 
 :::
 
@@ -104,7 +104,7 @@ The ones in blendOS are not signed by Apple nor Microsoft so you must turn this 
 
 ### Step 4: Boot from the USB drive
 
-Insert the USB drive into the computer that you wish to install blendOS to, and power it off. After a few seconds, power it on and hold (or spam) the <kbd>F12</kbd> until you arrive at your computer's boot menu. If that doesn't work, you may also try <kbd>F10</kbd>, <kbd>Esc</kbd>, or <kbd>F2</kbd>.
+Insert the USB drive into the computer that you wish to install blendOS to, and power it off. After a few seconds, power it on and hold <kbd>Alt</kbd> until you arrive at your Mac's boot menu.
 
 Once at the boot menu, select the USB drive you flashed blendOS to. You will be greeted by another menu, where you can press <kbd>Enter</kbd> to proceed with booting the live installation media.
 
